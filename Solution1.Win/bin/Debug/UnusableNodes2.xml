@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ModelEditorSettings Id="ModelEditorSettings">
+    <ModelEditorControl Id="ModelEditorControl" ShowCategories="True" />
+  </ModelEditorSettings>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="09c710d8-b34f-41e1-8d84-01539e3f4ebf" ImageMode="UseItemImage" ImageName="Preview" />
+      <Action Id="582727b8-1ff7-4c95-b0b9-02c50065ad09" ImageName="Actions_AddCircled" />
+      <Action Id="d51c44ea-f682-4a00-861a-fbb80f78589e" ImageName="Actions_DeleteCircled" />
+    </Actions>
+  </ActionDesign>
+  <Views Id="Views">
+    <ListView Id="Orders_Orderdetailss_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Product" Width="308" />
+        <ColumnInfo Id="Orders" Width="416" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
